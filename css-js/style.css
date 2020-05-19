@@ -1,0 +1,77 @@
+
+header{
+    background-color: rgba(3, 3, 3, 0.74);
+    text-align: center;  
+}
+
+section, footer, aside, nav, article, figure {
+    display: block;
+}
+
+body {
+    color: #666666;
+    background-color: #ffffff;
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;}
+
+
+h1 {
+    text-indent: -9999px;
+    width: 940px;
+    height: 130px;
+    margin: 0px;}
+nav, footer {
+    clear: both;
+    color: #ffffff;
+    background-color: #242424;
+    text-align: center;
+    height: 30px;}
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;}
+nav li {
+    display: inline;
+    margin-right: 40px;}
+nav li a {
+    color: #ffffff;}
+nav li a:hover, nav li a.current {
+    color: #00e0c2;}
+
+div {
+     display: block;
+    }
+
+section.courses {
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eeeeee;}
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;}
+
+aside {
+    width: 400px;
+    float: right;
+    padding: 0px 0px 0px 20px;}
+
+
+h1, h2, h3 {
+    font-weight: normal;}
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;}
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: #1002db;}
+
